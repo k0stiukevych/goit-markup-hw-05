@@ -599,7 +599,8 @@ img {
 .btn-foot-form {
   padding: 8px 24px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   height: 40px;
   min-width: 165px;
 
@@ -611,11 +612,12 @@ img {
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.04em;
 }
 
 .icon-footer-form {
   fill: #FFFFFF;
+  margin-left: 16px;
 }
 
 /* ----MODAL------------- */
